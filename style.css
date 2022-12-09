@@ -31,20 +31,9 @@ h3 {
 }
   
 .flexbox {
-    /* display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row; */
     display:flex;
     justify-content: center;
-    flex-direction: row;
-    
+    flex-direction: row; 
 }
   
 h3 {
@@ -57,7 +46,7 @@ h3 {
 }
   
 #rules-box {
-    height: 550px;
+    height: 500px;
     width: 200px;
     margin: 20px;
     margin-top: 45px;
@@ -66,18 +55,20 @@ h3 {
     padding-right: 10px;
     background-color: antiquewhite;
     font-family: 'Roboto';
-    font-size: 10px;
+    font-size: 15px;
     border-radius: 5%;
-    border-style: dashed;
+    border-style: dotted;
 }
   
 p {
     margin: 10px;
-    font-size: 15px;
+    font-size: 25px;
 }
   
 b {
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+
 }
   
 #scoreCount {
