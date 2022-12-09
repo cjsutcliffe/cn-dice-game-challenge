@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <title>Dice Game 3 Players</title>
+</head>
+
+<body>
+    <h1>Dice Game</h1>
+    <button id="menu" onclick="window.location.href='index.html'">Main Menu</button>
+    <h2>2 Player Edition</h2>
+    <div class="container">
+        
+        
+        <h3 id="status"> Want to play? </h3>
+
+        <div class="flexbox">
+
+            <div class="dice-container">
+                <div class="score-box">
+                    <h3 class="scoreTitle">Score:</h3>
+                    <p id="scoreCount">0</p>
+                </div>
+
+                <img src="./images/DiceBlank.png" alt="Dice image" id="die"></img>
+                <br>
+                <button id="button" type="button">Roll</button>
+            </div>
+            <div id="rules-box">
+                <p>
+                    <b>
+                        How to Play
+                    </b>
+
+                    <br>
+                <p>
+                    The aim of the game is to get a score of 20 without rolling a 1.
+                </p>
+                    <br>
+                <p>
+                    If you roll at 1, you lose and your score will be reset to zero.
+                </p>
+                <button id="restart">Restart</button>
+            </div>
+
+
+
+        </div>
+        <script src="script.js"></script>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background:gainsboro;
+    text-align: center;
+    justify-content: center;
+}
+  
+h1 {
+    font-family: 'Roboto';
+    font-size: 70px;
+}
+
+h2 {
+    font-family: 'Roboto';
+    font-size: 40px;
+}
+
+h3 {
+    font-family: 'Roboto';
+    font-size: 40px;
+}
+  
+#status {
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+  
+.container {
+    text-align: center;
+}
+  
+.flexbox {
+    /* display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row; */
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+  
+h3 {
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+  
+#status {
+    font-size: 20px;
+}
+  
+#rules-box {
+    height: 550px;
+    width: 200px;
+    margin: 20px;
+    margin-top: 45px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: antiquewhite;
+    font-family: 'Roboto';
+    font-size: 10px;
+    border-radius: 5%;
+    border-style: dashed;
+}
+  
+p {
+    margin: 10px;
+    font-size: 15px;
+}
+  
+b {
+    font-size: 20px;
+}
+  
+#scoreCount {
+    font-family: 'Roboto';
+    font-size: 2rem;
+}
+  
+img {
+    size: 100vh;
+}
+  
+#button {
+    margin-top: 20px;
+    padding: 5px 20px;
+    background-color: #00214c;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    border: none;
+    border-radius: 5%;
+}
+  
+#restart {
+    margin-top: 20px;
+    padding: 5px 20px;
+    background-color: #00214c;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    border: none;
+    border-radius: 5%;
+}
+
+#button1 {
+    margin-top: 20px;
+    padding: 5px 20px;
+    background-color: #00214c;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    border: none;
+    border-radius: 5%;
+}
+
+#menu {
+    margin-top: 20px;
+    padding: 5px 20px;
+    background-color: #00214c;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    border: none;
+    border-radius: 5%;
+}
